@@ -24,8 +24,7 @@ document.addEventListener('DOMContentLoaded', function() {
             document.getElementById("last_updated").innerText = last_updated;
         })
         .catch(error => {
-            console.error(error);
+            alert("Город не найден!");
         });
-        city.value = "";
     });
 });
